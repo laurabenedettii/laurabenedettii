@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>ciao</pattern>
+    <template>Beh, questa Ã¨ facile: ciao.</template>
+  </category>
+
+<category><pattern>hey</pattern><template><srai>CIAO</srai></template></category>
+
+
+<category>
+    <pattern>quanto</pattern>
+    <template>Quanto cosa?</template>
+</category>
+
+
+<category>
+    <pattern>piÃ¹ info</pattern>
+    <template>Su cosa?
+<reply>
+    <text>Bottone 1</text>
+    <postback>risposta1</postback>
+</reply><reply>
+    <text>bottone 2</text>
+    <postback>rx2</postback>
+</reply></template>
+</category>
+<category>
+    <pattern>daje</pattern>
+    <template>Edit bot response
+<button>
+    <text>Su Pandorabots</text>
+    <url>https://home.pandorabots.com</url>
+</button><button>
+    <text>Eh se no no</text>
+    <postback>Postback</postback>
+</button></template>
+</category>
+<category>
+    <pattern>su cosa</pattern>
+    <template>Edit bot response
+<carousel>
+    <card>
+        <image>https://widget.pandorabots.com/prod/assets/pb-robot.svg</image>
+        
+        <subtitle>Insert Subtitle</subtitle>
+        <button>
+            <text>Insert Text</text>
+            <postback>https://widget.pandorabots.com/prod/assets/pb-robot.svg</postback>
+        </button>        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+    </card>
+    <card>
+        <image>https://widget.pandorabots.com/prod/assets/pb-robot.svg</image>
+        <title>Insert Title</title>
+        <subtitle>Insert Subtitle</subtitle>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+    </card>
+    <card>
+        <image>https://widget.pandorabots.com/prod/assets/pb-robot.svg</image>
+        <title>Insert Text</title>
+        <subtitle>Insert Subtitle</subtitle>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+        <button>
+            <text>Insert Text</text>
+            <postback>Insert Postback</postback>
+        </button>
+    </card>
+</carousel>
+</template>
+</category>
+</aiml>
